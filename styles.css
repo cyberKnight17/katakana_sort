@@ -3,7 +3,7 @@
 :root {
   color-scheme: light;
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Arial, sans-serif;
-  background-color: #bfc3cc;
+  background-color: #f6f1e4;
   color: #111827;
 }
 
@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   padding: clamp(24px, 8vw, 48px);
-  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.8), rgba(189, 200, 219, 0.6));
+  background: radial-gradient(circle at top, rgba(255, 251, 235, 0.85), rgba(248, 217, 151, 0.55));
 }
 
 .page-container {
@@ -52,13 +52,13 @@ body {
 }
 
 .locale-switch button.active {
-  background: linear-gradient(135deg, #4f46e5, #7c9bff);
-  color: #ffffff;
-  border-color: rgba(79, 70, 229, 0.45);
+  background: linear-gradient(135deg, #f59e0b, #facc15);
+  color: #1f2937;
+  border-color: rgba(250, 204, 21, 0.65);
 }
 
 .locale-switch button:not(.active):hover {
-  background: #e2e8f0;
+  background: #fef3c7;
 }
 
 .content-columns {
@@ -178,8 +178,8 @@ body {
 .sort-card {
   padding: 16px 18px;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(79, 70, 229, 0.08), rgba(56, 189, 248, 0.08));
-  border: 1px solid rgba(99, 102, 241, 0.14);
+  background: linear-gradient(135deg, rgba(253, 230, 138, 0.22), rgba(250, 204, 21, 0.18));
+  border: 1px solid rgba(245, 158, 11, 0.22);
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -206,9 +206,9 @@ body {
   font-weight: 700;
   font-size: 0.95rem;
   cursor: pointer;
-  color: #ffffff;
-  background: linear-gradient(135deg, #4f46e5, #6366f1);
-  box-shadow: 0 14px 28px rgba(79, 70, 229, 0.3);
+  color: #1f2937;
+  background: linear-gradient(135deg, #f59e0b, #facc15);
+  box-shadow: 0 14px 28px rgba(245, 158, 11, 0.28);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -217,8 +217,8 @@ body {
 }
 
 .sort-card button:disabled {
-  background: #cbd5f5;
-  color: #475569;
+  background: #fceca8;
+  color: #9ca3af;
   box-shadow: none;
   cursor: default;
 }
@@ -227,15 +227,15 @@ body {
   margin-top: 4px;
   padding: 10px 20px;
   border-radius: 999px;
-  border: 1px solid rgba(99, 102, 241, 0.2);
-  background: rgba(99, 102, 241, 0.1);
-  color: #4f46e5;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(252, 211, 77, 0.25);
+  color: #b45309;
   font-weight: 600;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .reset-button:hover {
-  background: rgba(99, 102, 241, 0.18);
+  background: rgba(252, 211, 77, 0.4);
 }
 
 .list-shell {
@@ -300,14 +300,14 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 12px;
-  background: #f1f5f9;
+  background: #fdf4d7;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   flex-shrink: 0;
   font-weight: 700;
-  color: #475569;
+  color: #b45309;
 }
 
 .brand-text {
@@ -346,7 +346,7 @@ body {
   border: none;
   background: none;
   font-size: 0.72rem;
-  color: #cbd5f5;
+  color: #fde68a;
   margin-bottom: 8px;
   letter-spacing: 0.12em;
   cursor: pointer;
@@ -355,12 +355,12 @@ body {
 
 .kana-index button:hover,
 .kana-index button:focus-visible {
-  color: #7c8cca;
+  color: #f59e0b;
   transform: scale(1.08);
 }
 
 .kana-index button.active {
-  color: #4f46e5;
+  color: #b45309;
   font-weight: 700;
 }
 
